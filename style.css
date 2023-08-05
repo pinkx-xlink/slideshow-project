@@ -2,3 +2,7 @@
 .photo-content {
     visibility: hidden;
 }
+
+.photo-content > .active {
+    visibility: visible;   
+}
