@@ -1,11 +1,11 @@
-
+/* 
 .photo-content {
     visibility: hidden;
 }
 
 .photo-content > .active {
     visibility: visible;   
-}
+} */
 
 button {
     background-color: rgb(123, 175, 123);
