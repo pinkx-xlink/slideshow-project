@@ -6,3 +6,13 @@
 .photo-content > .active {
     visibility: visible;   
 }
+
+button {
+    background-color: rgb(123, 175, 123);
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+button:hover {
+    background-color: rgb(23, 49, 23);
+}
