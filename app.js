@@ -1,0 +1,1 @@
+const slider_img = document.querySelector('.slider-image')
