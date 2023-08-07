@@ -11,3 +11,10 @@ function next() {
     i++;
     imageTag.setAttribute('src', images[i]);
 }
+function previous() {
+    if (i <= 0) {
+        return false;
+    }
+    i--;
+    imageTag.setAttribute('src', images[i]);
+}
