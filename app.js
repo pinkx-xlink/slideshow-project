@@ -10,7 +10,9 @@ function prev(){
 }
 
 function next(){
-
+    if( i >= images.length -1) i = -1;
+    1++;
+    return setImg();
 }
 
 function setImg(){
