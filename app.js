@@ -1,6 +1,5 @@
 const slider_img = document.querySelector('.slider-img');
 let images = ['garden.jpg', 'strawberry.jpg', 'kitties.jpg'];
-
 let i = 0;
 
 function prev() {
