@@ -1,4 +1,4 @@
-const slider_img = document.querySelector('.slider-image');
+const sliderImg = document.querySelector('.slider-img');
 const images = ['garden.jpg', 'strawberry.jpg', 'kitties.jpg'];
 
 const i = 0;
@@ -10,11 +10,11 @@ function prev(){
 }
 
 function next(){
-    if( i >= images.length -1) i = -1;
+    if( i >= images.length-1) i = -1;
     i++;
     return setImg();
 }
 
 function setImg(){
-    return slider_img.setAttribute('src', 'images/' + images[i]);
+    return sliderImg.setAttribute('src', "images/"+images[i]);
 }
